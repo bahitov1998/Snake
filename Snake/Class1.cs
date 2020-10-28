@@ -12,6 +12,11 @@ namespace Snake
             p1.sym = '*';
             Draw(p1.x, p1.y, p1.sym);
 
+            Point p2 = new Point();
+            p2.x = 4;
+            p2.y = 5;
+            p2.sym = '#';
+
             /*int x1 = 1;
             int y1 = 3;
             char sym1 = '*';
